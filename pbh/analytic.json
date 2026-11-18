@@ -1,0 +1,395 @@
+{
+ "A1 Starobinsky n_s (1-2/N)": {
+  "analytic": 0.96077,
+  "numeric": 0.96229,
+  "note": ""
+ },
+ "A1 Starobinsky r (12/N^2)": {
+  "analytic": 0.00462,
+  "numeric": 0.00404,
+  "note": ""
+ },
+ "A1 N-shift of exact n_s": {
+  "analytic": 2.05,
+  "numeric": null,
+  "note": "n_s(exact) = 1 - 2/(N + shift)"
+ },
+ "A2 N_* closed form vs exact (rms, max)": {
+  "analytic": [
+   0.35,
+   1.16
+  ],
+  "numeric": "exact slow-roll solution (6000 box points, E-model)",
+  "note": ""
+ },
+ "A3 achievable N_* range (alpha=1)": {
+  "analytic": [
+   42.1,
+   60.1
+  ],
+  "numeric": [
+   41.4,
+   62.4
+  ],
+  "note": ""
+ },
+ "A3 Planck lower N_* (with shift)": {
+  "analytic": 43.9,
+  "numeric": 43.8,
+  "note": ""
+ },
+ "A4 ACT requires N_* >= (with shift) vs achievable max": {
+  "analytic": [
+   59.5,
+   60.1
+  ],
+  "numeric": "allowed region empty (9/6000 E, 0/6000 T)",
+  "note": ""
+ },
+ "A5 alpha_max from r<0.036 at N_max (12 alpha/N^2)": {
+  "analytic": 1.03,
+  "numeric": 1.28,
+  "note": "log10 alpha"
+ },
+ "B1 quadratic curvaton max P_zeta(k_dec)": {
+  "analytic": [
+   1.8e-06,
+   -6.1
+  ],
+  "numeric": [
+   3.9e-09,
+   0.9
+  ],
+  "note": "[P_zeta, log10 M at the maximum]"
+ },
+ "B2 quadratic curvaton log10 f_max": {
+  "analytic": -649000.0,
+  "numeric": null,
+  "note": "Gaussian tail with x_c = e^{3/2}-1; numeric: max over prior samples (-inf if none finite)"
+ },
+ "C1 inflating curvaton N_2 max (leading / shifted)": {
+  "analytic": [
+   5.0,
+   7.1
+  ],
+  "numeric": 6.8,
+  "note": ""
+ },
+ "D1 axion: P_total / N_support vs max p_c": {
+  "analytic": 3.7e-06,
+  "numeric": 6.7e-06,
+  "note": "support 10 cells; eps = 1e-5"
+ },
+ "E1 FOPT P(1e-12 < f < 1), delta_c = 0.5": {
+  "analytic": 0.0203,
+  "numeric": 0.0278,
+  "note": "Gaussian prior moments of (log T, beta/H); bimodality"
+ },
+ "E1b FOPT P(1e-12<f<1), prior width x0.5": {
+  "analytic": 0.0004,
+  "numeric": 0.0025,
+  "note": "same formula with covariance x s^2"
+ },
+ "E1b FOPT P(1e-12<f<1), prior width x2.0": {
+  "analytic": 0.0255,
+  "numeric": 0.0423,
+  "note": "same formula with covariance x s^2"
+ },
+ "E2 FOPT beta/H at the band centre": {
+  "analytic": 6.08,
+  "numeric": null,
+  "note": ""
+ },
+ "E3 FOPT light edge (LVK), log10 M": {
+  "analytic": -15.4,
+  "numeric": -15.2,
+  "note": "numeric: lightest reached cell"
+ },
+ "E4 FOPT heavy edge (PTA pointwise), log10 M": {
+  "analytic": -1.2,
+  "numeric": [
+   -0.6,
+   0.2
+  ],
+  "note": "numeric: [pointwise run (2026-11-13), NG15 likelihood: heaviest reached cell]"
+ },
+ "E5 FOPT minimum T_reh (= T at the PTA edge), log10 GeV": {
+  "analytic": -0.35,
+  "numeric": -0.9,
+  "note": "numeric: background family, reach vanishes below"
+ },
+ "F1 DW T_reh threshold sigma^{1/3} at NG15 best fit, log10 GeV": {
+  "analytic": 5.4,
+  "numeric": 5.2,
+  "note": ""
+ },
+ "F2 DW mass at NG15 best fit (monochromatic), log10 Msun": {
+  "analytic": 0.74,
+  "numeric": 0.77,
+  "note": ""
+ },
+ "F3 DW mass range over the NG15 band, log10 Msun": {
+  "analytic": [
+   0.11,
+   1.61
+  ],
+  "numeric": [
+   -0.1,
+   1.4
+  ],
+  "note": "numeric: 5-95% of reaching samples over L/t (width)"
+ },
+ "F4_list": [
+  [
+   0.1,
+   -11.391564983061249
+  ],
+  [
+   1.0,
+   -10.890099698959185
+  ]
+ ],
+ "F4 DW light edge from sigma^{1/3} < T_reh (alpha 0.1, 1), log10 M": {
+  "analytic": [
+   -11.4,
+   -10.9
+  ],
+  "numeric": -11.5,
+  "note": "numeric: lightest reached cell, case (i), L/t = 0.8"
+ },
+ "F5 DW heavy end of the NG15 band (T=60 MeV, alpha=0.06), log10 M": {
+  "analytic": 1.61,
+  "numeric": [
+   1.2,
+   1.5
+  ],
+  "note": "numeric: robust-(A) boundary in scenarios (d),(c)"
+ },
+ "G1 Fermi-ball mean / sd of log10 M": {
+  "analytic": [
+   -21.79,
+   5.08
+  ],
+  "numeric": [
+   -21.98,
+   5.14
+  ],
+  "note": ""
+ },
+ "G2 Fermi-ball mean / sd of log10 f": {
+  "analytic": [
+   -2.04,
+   1.75
+  ],
+  "numeric": [
+   -1.85,
+   1.79
+  ],
+  "note": "f_eff (would-be abundance, incl. evaporated)"
+ },
+ "G3 Fermi-ball corr(log M, log f)": {
+  "analytic": -0.17,
+  "numeric": -0.2,
+  "note": ""
+ },
+ "G4 Fermi-ball evaporated fraction": {
+  "analytic": 0.735,
+  "numeric": 0.731,
+  "note": ""
+ },
+ "H1 walls: peak mass on the reference background, log10 M": {
+  "analytic": -18.59,
+  "numeric": -18.59,
+  "note": ""
+ },
+ "H2 walls: T_reh below which the abundance peak enters the window, log10 GeV": {
+  "analytic": 8.34,
+  "numeric": 8.0,
+  "note": "numeric: reach rises below ~1e8 GeV (Fig. 4)"
+ },
+ "H3 walls: median peak mass (background mixture), log10 M": {
+  "analytic": -10.4,
+  "numeric": -11.6,
+  "note": "analytic: median of M_H(T_reh) over the T_reh prior restricted to the window"
+ },
+ "I1 strings: f_tot max = c_s,max/Omega_DM (M_evap/M_*)^{-1/2}": {
+  "analytic": 2.4e-10,
+  "numeric": 2.5e-10,
+  "note": ""
+ },
+ "I2 strings: T_reh threshold for f_tot > 1e-12 (T_max ~ T_reh^{1/2}), log10 GeV": {
+  "analytic": 1.5,
+  "numeric": [
+   1.97,
+   3.97
+  ],
+  "note": "numeric: [lowest T_reh with reach, highest T_reh with zero reach]"
+ },
+ "J1 USR shell width Delta ln A (median over nodes)": {
+  "analytic": 4.9e-05,
+  "numeric": 5.1e-05,
+  "note": "analytic: ln beta ~ -delta^2 with delta(f=1) from the node; numeric: delta(f=1e-12) - delta(f=1)"
+ },
+ "J2 USR P_max delta^2 (median)": {
+  "analytic": 2.6e-10,
+  "numeric": null,
+  "note": "P_max ~ K delta^-2"
+ },
+ "J3 USR P(1e-12<f<1)": {
+  "analytic": 9.8e-07,
+  "numeric": 2.3e-06,
+  "note": "allowed fraction x prior density at log A_c x shell width"
+ },
+ "K1 (A) fraction GPM vs numeric ul_opt_eps1e-06": {
+  "analytic": 0.108,
+  "numeric": 0.188,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric ul_con_eps1e-06": {
+  "analytic": 0.18,
+  "numeric": 0.292,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric pta_opt_eps1e-06": {
+  "analytic": 0.174,
+  "numeric": 0.21,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric pta_con_eps1e-06": {
+  "analytic": 0.736,
+  "numeric": 0.756,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric ul_opt_eps1e-05": {
+  "analytic": 0.311,
+  "numeric": 0.204,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric ul_con_eps1e-05": {
+  "analytic": 0.434,
+  "numeric": 0.334,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric pta_opt_eps1e-05": {
+  "analytic": 0.41,
+  "numeric": 0.222,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric pta_con_eps1e-05": {
+  "analytic": 0.789,
+  "numeric": 0.781,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric ul_opt_eps1e-04": {
+  "analytic": 0.878,
+  "numeric": 0.866,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric ul_con_eps1e-04": {
+  "analytic": 0.878,
+  "numeric": 0.866,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric pta_opt_eps1e-04": {
+  "analytic": 0.844,
+  "numeric": 0.806,
+  "note": ""
+ },
+ "K1 (A) fraction GPM vs numeric pta_con_eps1e-04": {
+  "analytic": 0.851,
+  "numeric": 0.838,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x0.5 ul_opt": {
+  "analytic": 0.554,
+  "numeric": 0.531,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x0.5 ul_con": {
+  "analytic": 0.723,
+  "numeric": 0.714,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x0.5 pta_opt": {
+  "analytic": 0.623,
+  "numeric": 0.799,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x0.5 pta_con": {
+  "analytic": 0.888,
+  "numeric": 0.863,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x2.0 ul_opt": {
+  "analytic": 0.171,
+  "numeric": 0.197,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x2.0 ul_con": {
+  "analytic": 0.418,
+  "numeric": 0.299,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x2.0 pta_opt": {
+  "analytic": 0.566,
+  "numeric": 0.214,
+  "note": ""
+ },
+ "K2 (A) fraction GPM vs rerun, width x2.0 pta_con": {
+  "analytic": 0.589,
+  "numeric": 0.76,
+  "note": ""
+ },
+ "K3 reached cells GPM vs numeric fopt/GV_dc0.5 eps=1e-6,-5,-4": {
+  "analytic": [
+   1608,
+   736,
+   0
+  ],
+  "numeric": [
+   1465,
+   1238,
+   0
+  ],
+  "note": ""
+ },
+ "K3 reached cells GPM vs numeric dw/ulL_Lt0.8_width eps=1e-6,-5,-4": {
+  "analytic": [
+   1428,
+   802,
+   0
+  ],
+  "numeric": [
+   1117,
+   1049,
+   0
+  ],
+  "note": ""
+ },
+ "K3 reached cells GPM vs numeric fermiball/base eps=1e-6,-5,-4": {
+  "analytic": [
+   493,
+   381,
+   254
+  ],
+  "numeric": [
+   450,
+   399,
+   280
+  ],
+  "note": ""
+ },
+ "K3 reached cells GPM vs numeric dw/ptaL_Lt0.8_width eps=1e-6,-5,-4": {
+  "analytic": [
+   59,
+   59,
+   57
+  ],
+  "numeric": [
+   59,
+   59,
+   59
+  ],
+  "note": ""
+ }
+}

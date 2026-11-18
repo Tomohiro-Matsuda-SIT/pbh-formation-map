@@ -1,0 +1,29 @@
+{
+ "model": "infwall",
+ "condition": "con",
+ "description": "walls nucleated during Starobinsky inflation (GVZ/DGV), A = 1e-2, kappa = 1",
+ "assumptions": [
+  "lambda ~ A exp(-2 pi^2 sigma / H^3)",
+  "lM = peak of the non-evaporated MF",
+  "evaporated-PBH limits applied"
+ ],
+ "code": [
+  "infwall_pipeline.py",
+  "evap.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 100000,
+  "P_f_gt_1e12": 0.04838,
+  "P_f_gt_1": 0.04064,
+  "P_reach": 0.00164,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 0.0,
+  "logM_5_50_95_reach": [
+   -18.55870695243948,
+   -18.55870399331525,
+   -18.558700872057813
+  ]
+ }
+}

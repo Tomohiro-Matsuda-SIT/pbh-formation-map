@@ -1,0 +1,108 @@
+{
+ "ul_opt": {
+  "base": {
+   "A": 0.2038,
+   "B1": 0.0785,
+   "B2": 0.7177
+  },
+  "sigw_band": {
+   "A": 0,
+   "B1": 9,
+   "B2": 162
+  },
+  "sigw_band_reached_by": {
+   "curvaton_std": 0,
+   "inflating_curvaton": 0,
+   "fermiball": 0,
+   "fopt": 171,
+   "dw": 171,
+   "axion": 0,
+   "infwall": 0,
+   "cstring": 0,
+   "usr": 0
+  },
+  "axion_zc_band": {
+   "A": 0.2038,
+   "B1": 0.0785,
+   "B2": 0.7177
+  },
+  "axion_cells_reached": 0,
+  "axion_cells_new": 0
+ },
+ "ul_con": {
+  "base": {
+   "A": 0.334,
+   "B1": 0.0689,
+   "B2": 0.5971
+  },
+  "sigw_band": {
+   "A": 0,
+   "B1": 9,
+   "B2": 162
+  },
+  "sigw_band_reached_by": {
+   "curvaton_std": 0,
+   "inflating_curvaton": 0,
+   "fermiball": 0,
+   "fopt": 0,
+   "dw": 171,
+   "axion": 0,
+   "infwall": 0,
+   "cstring": 0,
+   "usr": 0
+  }
+ },
+ "pta_opt": {
+  "base": {
+   "A": 0.2225,
+   "B1": 0.078,
+   "B2": 0.6995
+  },
+  "sigw_band": {
+   "A": 0,
+   "B1": 9,
+   "B2": 162
+  },
+  "sigw_band_reached_by": {
+   "curvaton_std": 0,
+   "inflating_curvaton": 0,
+   "fermiball": 0,
+   "fopt": 171,
+   "dw": 0,
+   "axion": 0,
+   "infwall": 0,
+   "cstring": 0,
+   "usr": 0
+  },
+  "axion_zc_band": {
+   "A": 0.2225,
+   "B1": 0.078,
+   "B2": 0.6995
+  },
+  "axion_cells_reached": 0,
+  "axion_cells_new": 0
+ },
+ "pta_con": {
+  "base": {
+   "A": 0.7809,
+   "B1": 0.0478,
+   "B2": 0.1713
+  },
+  "sigw_band": {
+   "A": 171,
+   "B1": 0,
+   "B2": 0
+  },
+  "sigw_band_reached_by": {
+   "curvaton_std": 0,
+   "inflating_curvaton": 0,
+   "fermiball": 0,
+   "fopt": 0,
+   "dw": 0,
+   "axion": 0,
+   "infwall": 0,
+   "cstring": 0,
+   "usr": 0
+  }
+ }
+}

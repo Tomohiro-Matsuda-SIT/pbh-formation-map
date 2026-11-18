@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite the paper and this software."
+title: "Code and analysis notes for 'Where primordial black holes can come from'"
+type: software
+authors:
+  - family-names: Matsuda
+    given-names: Tomohiro
+    affiliation: Saitama Institute of Technology
+date-released: 2026-11-18
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Tomohiro-Matsuda-SIT/pbh-formation-map"
+keywords:
+  - primordial black holes
+  - formation mechanisms
+  - gravitational waves
+  - pulsar timing arrays
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Matsuda
+      given-names: Tomohiro
+      affiliation: Saitama Institute of Technology
+  title: "Where primordial black holes can come from: how likely formation mechanisms are to produce a given mass and abundance"
+  year: 2026

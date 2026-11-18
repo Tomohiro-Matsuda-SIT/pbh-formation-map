@@ -1,0 +1,31 @@
+{
+ "model": "fermiball",
+ "condition": "base",
+ "description": "Fermi-ball collapse (Kawana-Xie), v_b = 0.6, F_trap = 0.98; box log eta in [-16, -6]",
+ "assumptions": [
+  "GW: sound waves with finite duration; LVK pointwise; PTA NG15 likelihood (upper limit with SMBHB)",
+  "untrapped-chi relic <= Omega_DM",
+  "monochromatic MF",
+  "evaporated-PBH limits applied"
+ ],
+ "code": [
+  "fermiball_pipeline.py",
+  "fopt_dw_pipeline.py",
+  "evap.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.269338,
+  "P_f_gt_1": 0.035033,
+  "P_reach": 0.174995,
+  "P_reach_det": 0.067768,
+  "P_reach_in_window": 0.13836,
+  "logM_5_50_95_reach": [
+   -18.451453437159,
+   -15.180380147552574,
+   -11.693739898917322
+  ]
+ }
+}

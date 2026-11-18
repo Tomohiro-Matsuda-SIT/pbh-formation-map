@@ -1,0 +1,32 @@
+{
+ "model": "fopt",
+ "condition": "GV_dc0.667_bgP",
+ "description": "supercooled FOPT 'GV_dc0.667' on the alpha-attractor background family (E/T, planck n_s band), hierarchical prior over (alpha, w_reh, T_reh); 480 background nodes",
+ "assumptions": [
+  "background.py: E/T alpha-attractor, slow roll, constant w_reh = (n-1)/(n+1), free T_reh",
+  "bg_prior.py: truncated-Gaussian prior on CMB-allowed psi (n_s 2 sigma, r < 0.036, T_reh > 5 MeV)",
+  "per-node model prior rebuilt with the project rule (bg_node.py)"
+ ],
+ "code": [
+  "background.py",
+  "bg_prior.py",
+  "bg_node.py",
+  "bg_combine.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 9560000,
+  "P_f_gt_1e12": 0.03702697916666667,
+  "P_f_gt_1": 0.018295729166666667,
+  "P_reach": 0.01714239583333333,
+  "P_reach_det": 0.0031215625,
+  "P_reach_in_window": 0.016162083333333334,
+  "weighted": true,
+  "logM_5_50_95_reach": [
+   -21.056783199303243,
+   -7.190145969292288,
+   -0.7071839243167877
+  ]
+ }
+}

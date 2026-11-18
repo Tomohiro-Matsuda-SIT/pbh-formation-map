@@ -1,0 +1,33 @@
+{
+ "model": "dw",
+ "condition": "ptaLE_Lt0.8_width",
+ "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = width; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+ "assumptions": [
+  "s_ball natural log (verified)",
+  "GW: GV App. B.1",
+  "width: critical collapse with percolation-derived Delta scale (ours)",
+  "evaporated-PBH limits applied (width only)"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py",
+  "run_dw_ptaL.py",
+  "dw_pta_fit.py",
+  "pta_like.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.290423,
+  "P_f_gt_1": 0.11893999999999999,
+  "P_reach": 0.138733,
+  "P_reach_det": 0.039154999999999995,
+  "P_reach_in_window": 0.138733,
+  "weighted": false,
+  "logM_5_50_95_reach": [
+   0.40975362685627753,
+   0.6470683958622606,
+   0.8659486111123721
+  ]
+ }
+}

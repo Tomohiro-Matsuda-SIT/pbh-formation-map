@@ -1,0 +1,31 @@
+{
+ "model": "fopt",
+ "condition": "GV_dc0.4",
+ "description": "supercooled FOPT, non-covariant (Gouttenoire-Volansky), delta_c = 0.4; critical-collapse MF",
+ "assumptions": [
+  "GW: envelope approx.; LVK O3 pointwise; PTA NG15 likelihood (upper limit with SMBHB)",
+  "lM = peak of critical-collapse MF",
+  "evaporated-PBH limits applied"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py",
+  "emf.py",
+  "evap.py",
+  "pta_like.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.085509,
+  "P_f_gt_1": 0.045254,
+  "P_reach": 0.040962,
+  "P_reach_det": 0.010663,
+  "P_reach_in_window": 0.040784,
+  "logM_5_50_95_reach": [
+   -14.384608253615562,
+   -9.667404277439108,
+   -1.1922238626984165
+  ]
+ }
+}

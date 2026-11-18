@@ -1,0 +1,32 @@
+{
+ "model": "dw",
+ "condition": "ptaL_Lt1.2_width_bgP",
+ "description": "biased domain walls 'ptaL_Lt1.2_width' on the alpha-attractor background family (E/T, planck n_s band), hierarchical prior over (alpha, w_reh, T_reh); 480 background nodes",
+ "assumptions": [
+  "background.py: E/T alpha-attractor, slow roll, constant w_reh = (n-1)/(n+1), free T_reh",
+  "bg_prior.py: truncated-Gaussian prior on CMB-allowed psi (n_s 2 sigma, r < 0.036, T_reh > 5 MeV)",
+  "per-node model prior rebuilt with the project rule (bg_node.py)"
+ ],
+ "code": [
+  "background.py",
+  "bg_prior.py",
+  "bg_node.py",
+  "bg_combine.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 6120000,
+  "P_f_gt_1e12": 0.6375,
+  "P_f_gt_1": 0.5281857291666667,
+  "P_reach": 0.039444479166666664,
+  "P_reach_det": 0.037283333333333335,
+  "P_reach_in_window": 0.039444479166666664,
+  "weighted": true,
+  "logM_5_50_95_reach": [
+   1.088578236103123,
+   1.22311270237004,
+   1.349884545803077
+  ]
+ }
+}

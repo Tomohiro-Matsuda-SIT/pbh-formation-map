@@ -1,0 +1,32 @@
+{
+ "model": "dw",
+ "condition": "ul_Lt0.5_mono",
+ "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+ "assumptions": [
+  "s_ball natural log (verified)",
+  "GW: GV App. B.1",
+  "monochromatic at t_dom/2G",
+  "PBHbounds only"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py",
+  "run_dw_ptaL.py",
+  "dw_pta_fit.py",
+  "pta_like.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.047565,
+  "P_f_gt_1": 0.03125,
+  "P_reach": 0.012403,
+  "P_reach_det": 0.000497,
+  "P_reach_in_window": 0.012403,
+  "logM_5_50_95_reach": [
+   -10.361948107251738,
+   -5.708362624721804,
+   -1.437449266146362
+  ]
+ }
+}

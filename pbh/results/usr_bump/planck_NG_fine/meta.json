@@ -1,0 +1,35 @@
+{
+ "model": "usr_bump",
+ "condition": "planck_NG_fine",
+ "description": "inflaton-generated PBHs: Starobinsky + Gaussian bump (USR), CMB = planck, USR exponential tail f_NL=5/2 (sharp transition)",
+ "assumptions": [
+  "exact background + Mukhanov-Sasaki (usr_solver.py)",
+  "compaction threshold (Musco+21), Ferrante+23 statistics",
+  "SIGW Kohri-Terada; NG15 likelihood + LVK",
+  "mu < 9e-5",
+  "P_max < 1 classicality proxy",
+  "prior: truncated Gaussian on allowed (phi0, log s, log A); conditional integration in log A"
+ ],
+ "code": [
+  "usr_solver.py",
+  "usr_pbh.py",
+  "usr_pipeline.py",
+  "usr_pushforward.py"
+ ],
+ "date": "2026-11-16",
+ "eps": 1e-05,
+ "stats": {
+  "n": 88000,
+  "P_f_gt_1e12": 1.4483745944328162e-05,
+  "P_f_gt_1": 1.3686183863108296e-05,
+  "P_reach": 1.1133306255188458e-06,
+  "P_reach_det": 9.45829020964948e-07,
+  "P_reach_in_window": 1.1133306255188458e-06,
+  "weighted": true,
+  "logM_5_50_95_reach": [
+   -14.613860298969247,
+   -13.486217239180565,
+   0.20792448198511945
+  ]
+ }
+}

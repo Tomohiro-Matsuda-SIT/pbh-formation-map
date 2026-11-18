@@ -1,0 +1,165 @@
+{
+ "ul_opt": {
+  "A": 0.236,
+  "B1": 0.078,
+  "B2": 0.686
+ },
+ "ul_con": {
+  "A": 0.511,
+  "B1": 0.066,
+  "B2": 0.423
+ },
+ "pta_opt": {
+  "A": 0.253,
+  "B1": 0.079,
+  "B2": 0.668
+ },
+ "pta_con": {
+  "A": 0.77,
+  "B1": 0.048,
+  "B2": 0.182
+ },
+ "variant": "bgP",
+ "scenarios": {
+  "ul_opt": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base_bgP"
+   ],
+   "fopt": [
+    "fopt/GV_dc0.4_bgP",
+    "fopt/GV_dc0.5_bgP",
+    "fopt/GV_dc0.667_bgP"
+   ],
+   "dw": [
+    "dw/ulL_Lt0.5_width_bgP",
+    "dw/ulL_Lt0.8_width_bgP",
+    "dw/ulL_Lt1.2_width_bgP"
+   ],
+   "axion": [
+    "axion_curvaton/opt"
+   ],
+   "infwall": [
+    "infwall/opt_bgP"
+   ],
+   "cstring": [
+    "cstring/free_bgP"
+   ],
+   "usr": [
+    "usr_bump/planck_NG"
+   ]
+  },
+  "ul_con": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base_bgP"
+   ],
+   "fopt": [
+    "fopt/cov_dc0.4_bgP",
+    "fopt/cov_dc0.5_bgP",
+    "fopt/cov_dc0.667_bgP"
+   ],
+   "dw": [
+    "dw/ulL_Lt0.8_width_bgP"
+   ],
+   "axion": [
+    "axion_curvaton/con"
+   ],
+   "infwall": [
+    "infwall/con_bgP"
+   ],
+   "cstring": [
+    "cstring/CC_bgP"
+   ],
+   "usr": [
+    "usr_bump/planck_G"
+   ]
+  },
+  "pta_opt": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base_bgP"
+   ],
+   "fopt": [
+    "fopt/GV_dc0.4_bgP",
+    "fopt/GV_dc0.5_bgP",
+    "fopt/GV_dc0.667_bgP"
+   ],
+   "dw": [
+    "dw/ptaL_Lt0.5_width_bgP",
+    "dw/ptaL_Lt0.8_width_bgP",
+    "dw/ptaL_Lt1.2_width_bgP"
+   ],
+   "axion": [
+    "axion_curvaton/opt"
+   ],
+   "infwall": [
+    "infwall/opt_bgP"
+   ],
+   "cstring": [
+    "cstring/free_bgP"
+   ],
+   "usr": [
+    "usr_bump/planck_NG"
+   ]
+  },
+  "pta_con": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base_bgP"
+   ],
+   "fopt": [
+    "fopt/cov_dc0.4_bgP",
+    "fopt/cov_dc0.5_bgP",
+    "fopt/cov_dc0.667_bgP"
+   ],
+   "dw": [
+    "dw/ptaL_Lt0.8_width_bgP"
+   ],
+   "axion": [
+    "axion_curvaton/con"
+   ],
+   "infwall": [
+    "infwall/con_bgP"
+   ],
+   "cstring": [
+    "cstring/CC_bgP"
+   ],
+   "usr": [
+    "usr_bump/planck_G"
+   ]
+  }
+ }
+}

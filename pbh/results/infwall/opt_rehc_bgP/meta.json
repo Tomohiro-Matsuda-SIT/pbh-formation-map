@@ -1,0 +1,29 @@
+{
+ "model": "infwall",
+ "condition": "opt_rehc_bgP",
+ "description": "walls nucleated during inflation, walls re-entering before reheating also collapse (reheating era with constant w_reh); alpha-attractor background family, planck band",
+ "assumptions": [
+  "infwall_pipeline._setup(REH='collapse')",
+  "per-node prior as bg_node.py"
+ ],
+ "code": [
+  "infwall_pipeline.py",
+  "infwall_reh.py"
+ ],
+ "date": "2026-11-16",
+ "eps": 1e-05,
+ "stats": {
+  "n": 2400000,
+  "P_f_gt_1e12": 0.024000833333333332,
+  "P_f_gt_1": 0.018403749999999997,
+  "P_reach": 0.0014679166666666668,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 0.0005575,
+  "weighted": true,
+  "logM_5_50_95_reach": [
+   -18.58750972747803,
+   -18.55430507659912,
+   -6.862996196746928
+  ]
+ }
+}

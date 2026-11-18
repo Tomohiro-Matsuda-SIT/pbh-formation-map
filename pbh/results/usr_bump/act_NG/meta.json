@@ -1,0 +1,21 @@
+{
+ "model": "usr_bump",
+ "condition": "act_NG",
+ "description": "inflaton-generated PBHs: Starobinsky + Gaussian bump (USR), CMB = act, USR exponential tail f_NL=5/2 (sharp transition) -- ALLOWED REGION EMPTY (base n_s outside the CMB band)",
+ "assumptions": [
+  "exact background + Mukhanov-Sasaki (usr_solver.py)",
+  "compaction threshold (Musco+21), Ferrante+23 statistics",
+  "SIGW Kohri-Terada; NG15 likelihood + LVK",
+  "mu < 9e-5",
+  "P_max < 1 classicality proxy",
+  "prior: truncated Gaussian on allowed (phi0, log s, log A); conditional integration in log A"
+ ],
+ "code": [
+  "usr_solver.py",
+  "usr_pbh.py",
+  "usr_pipeline.py",
+  "usr_pushforward.py"
+ ],
+ "date": "2026-11-15",
+ "stats": null
+}

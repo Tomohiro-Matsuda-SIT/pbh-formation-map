@@ -1,0 +1,165 @@
+{
+ "ul_opt": {
+  "A": 0.206,
+  "B1": 0.075,
+  "B2": 0.719
+ },
+ "ul_con": {
+  "A": 0.378,
+  "B1": 0.059,
+  "B2": 0.563
+ },
+ "pta_opt": {
+  "A": 0.168,
+  "B1": 0.08,
+  "B2": 0.752
+ },
+ "pta_con": {
+  "A": 0.73,
+  "B1": 0.052,
+  "B2": 0.218
+ },
+ "variant": "legacy",
+ "scenarios": {
+  "ul_opt": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base"
+   ],
+   "fopt": [
+    "fopt/GV_dc0.4",
+    "fopt/GV_dc0.5",
+    "fopt/GV_dc0.667"
+   ],
+   "dw": [
+    "dw/ul_Lt0.5_mono",
+    "dw/ul_Lt0.8_mono",
+    "dw/ul_Lt1.2_mono"
+   ],
+   "axion": [
+    "axion_curvaton/opt"
+   ],
+   "infwall": [
+    "infwall/opt"
+   ],
+   "cstring": [
+    "cstring/free"
+   ],
+   "usr": [
+    "usr_bump/planck_NG"
+   ]
+  },
+  "ul_con": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base"
+   ],
+   "fopt": [
+    "fopt/cov_dc0.4",
+    "fopt/cov_dc0.5",
+    "fopt/cov_dc0.667"
+   ],
+   "dw": [
+    "dw/ul_Lt0.8_mono"
+   ],
+   "axion": [
+    "axion_curvaton/con"
+   ],
+   "infwall": [
+    "infwall/con"
+   ],
+   "cstring": [
+    "cstring/CC"
+   ],
+   "usr": [
+    "usr_bump/planck_G"
+   ]
+  },
+  "pta_opt": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base"
+   ],
+   "fopt": [
+    "fopt/GV_dc0.4",
+    "fopt/GV_dc0.5",
+    "fopt/GV_dc0.667"
+   ],
+   "dw": [
+    "dw/pta_Lt0.5_mono",
+    "dw/pta_Lt0.8_mono",
+    "dw/pta_Lt1.2_mono"
+   ],
+   "axion": [
+    "axion_curvaton/opt"
+   ],
+   "infwall": [
+    "infwall/opt"
+   ],
+   "cstring": [
+    "cstring/free"
+   ],
+   "usr": [
+    "usr_bump/planck_NG"
+   ]
+  },
+  "pta_con": {
+   "curvaton_std": [
+    "curvaton_std/zetac0.7",
+    "curvaton_std/zetac1.0",
+    "curvaton_std/zetac1.3"
+   ],
+   "inflating_curvaton": [
+    "inflating_curvaton/opt",
+    "inflating_curvaton/con"
+   ],
+   "fermiball": [
+    "fermiball/base"
+   ],
+   "fopt": [
+    "fopt/cov_dc0.4",
+    "fopt/cov_dc0.5",
+    "fopt/cov_dc0.667"
+   ],
+   "dw": [
+    "dw/pta_Lt0.8_mono"
+   ],
+   "axion": [
+    "axion_curvaton/con"
+   ],
+   "infwall": [
+    "infwall/con"
+   ],
+   "cstring": [
+    "cstring/CC"
+   ],
+   "usr": [
+    "usr_bump/planck_G"
+   ]
+  }
+ }
+}

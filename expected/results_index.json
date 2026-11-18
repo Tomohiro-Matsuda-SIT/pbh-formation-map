@@ -1,0 +1,836 @@
+{
+ "axion_curvaton/con": {
+  "description": "axion-like (KKY) curvaton, hilltop treatment 'con' (eps_min region excluded)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 300000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "axion_curvaton/opt": {
+  "description": "axion-like (KKY) curvaton, hilltop treatment 'opt' (eps_min region counted)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 300000,
+   "P_f_gt_1e12": 3.6666666666666666e-05,
+   "P_f_gt_1": 0.0,
+   "P_reach": 3.6666666666666666e-05,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 3.6666666666666666e-05,
+   "logM_5_50_95_reach": [
+    -9.28154284859994,
+    -8.720957500169208,
+    -8.437096115703422
+   ]
+  }
+ },
+ "cstring/CC": {
+  "description": "cosmic-string loop collapse (James-Turner et al. MF), collapse fraction from Caldwell-Casper fit, extrapolated",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 20000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "cstring/free": {
+  "description": "cosmic-string loop collapse (James-Turner et al. MF), collapse fraction f free (log-Gaussian on [-30, 0])",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 20000,
+   "P_f_gt_1e12": 0.04245,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0239,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0,
+   "logM_5_50_95_reach": [
+    -18.5995490388448,
+    -18.5995490388448,
+    -18.5995490388448
+   ]
+  }
+ },
+ "curvaton_std/zetac0.7": {
+  "description": "standard quadratic curvaton, threshold zeta_c = 0.7; Gaussian prior on CMB/classicality/BBN-allowed box",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 200000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "curvaton_std/zetac1.0": {
+  "description": "standard quadratic curvaton, threshold zeta_c = 1.0; Gaussian prior on CMB/classicality/BBN-allowed box",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 200000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "curvaton_std/zetac1.3": {
+  "description": "standard quadratic curvaton, threshold zeta_c = 1.3; Gaussian prior on CMB/classicality/BBN-allowed box",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 200000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "dw/ptaLE_Lt0.5_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.066149,
+   "P_f_gt_1": 0.024405,
+   "P_reach": 0.033363,
+   "P_reach_det": 0.008563,
+   "P_reach_in_window": 0.033363,
+   "logM_5_50_95_reach": [
+    -0.037232560805940784,
+    0.1280493559033172,
+    0.29991265451923144
+   ]
+  }
+ },
+ "dw/ptaLE_Lt0.5_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = width; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.066149,
+   "P_f_gt_1": 0.024405,
+   "P_reach": 0.033762,
+   "P_reach_det": 0.008566,
+   "P_reach_in_window": 0.033762,
+   "logM_5_50_95_reach": [
+    -0.22233904485259115,
+    -0.08976690281335481,
+    0.05671786325172344
+   ]
+  }
+ },
+ "dw/ptaLE_Lt0.8_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = mono; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.289476,
+   "P_f_gt_1": 0.117799,
+   "P_reach": 0.141675,
+   "P_reach_det": 0.043015,
+   "P_reach_in_window": 0.141675,
+   "logM_5_50_95_reach": [
+    0.5855963948503384,
+    0.8513741764608219,
+    1.1051450085812529
+   ]
+  }
+ },
+ "dw/ptaLE_Lt0.8_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = width; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.289476,
+   "P_f_gt_1": 0.117799,
+   "P_reach": 0.138976,
+   "P_reach_det": 0.039133,
+   "P_reach_in_window": 0.138976,
+   "logM_5_50_95_reach": [
+    0.4103735184168271,
+    0.6471179135660976,
+    0.8657230679748292
+   ]
+  }
+ },
+ "dw/ptaLE_Lt1.2_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = mono; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.761,
+   "P_f_gt_1": 0.405938,
+   "P_reach": 0.244705,
+   "P_reach_det": 0.07247,
+   "P_reach_in_window": 0.244705,
+   "logM_5_50_95_reach": [
+    1.258563853327927,
+    1.603658421703902,
+    1.9593692426441234
+   ]
+  }
+ },
+ "dw/ptaLE_Lt1.2_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = width; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.761,
+   "P_f_gt_1": 0.405938,
+   "P_reach": 0.253696,
+   "P_reach_det": 0.084151,
+   "P_reach_in_window": 0.253696,
+   "logM_5_50_95_reach": [
+    1.069534454479139,
+    1.393086487427908,
+    1.7261807202814443
+   ]
+  }
+ },
+ "dw/ptaL_Lt0.5_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; DW explains PTA: NG15 likelihood, DW-only dlnL >= -3 from best fit",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.021613,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.021613,
+   "P_reach_det": 0.001089,
+   "P_reach_in_window": 0.021613,
+   "logM_5_50_95_reach": [
+    0.12676595641197008,
+    0.2353522345788441,
+    0.3659648207763453
+   ]
+  }
+ },
+ "dw/ptaL_Lt0.5_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = width; DW explains PTA: NG15 likelihood, DW-only dlnL >= -3 from best fit",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.021613,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.021613,
+   "P_reach_det": 0.000992,
+   "P_reach_in_window": 0.021613,
+   "logM_5_50_95_reach": [
+    -0.0812485336665163,
+    0.0020546345358379847,
+    0.11770398866984583
+   ]
+  }
+ },
+ "dw/ptaL_Lt0.8_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = mono; DW explains PTA: NG15 likelihood, DW-only dlnL >= -3 from best fit",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.633057,
+   "P_f_gt_1": 0.142877,
+   "P_reach": 0.397448,
+   "P_reach_det": 0.131429,
+   "P_reach_in_window": 0.397448,
+   "logM_5_50_95_reach": [
+    0.6494235715606308,
+    0.8691807606925332,
+    1.073095805662521
+   ]
+  }
+ },
+ "dw/ptaL_Lt0.8_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = width; DW explains PTA: NG15 likelihood, DW-only dlnL >= -3 from best fit",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.633057,
+   "P_f_gt_1": 0.142877,
+   "P_reach": 0.392006,
+   "P_reach_det": 0.122721,
+   "P_reach_in_window": 0.392006,
+   "logM_5_50_95_reach": [
+    0.4754382057157265,
+    0.6620055327002755,
+    0.8361269152536929
+   ]
+  }
+ },
+ "dw/ptaL_Lt1.2_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = mono; DW explains PTA: NG15 likelihood, DW-only dlnL >= -3 from best fit",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 1.0,
+   "P_f_gt_1": 0.843817,
+   "P_reach": 0.050069,
+   "P_reach_det": 0.046131,
+   "P_reach_in_window": 0.050069,
+   "logM_5_50_95_reach": [
+    1.252605222659542,
+    1.3941419661651566,
+    1.5342242969925275
+   ]
+  }
+ },
+ "dw/ptaL_Lt1.2_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = width; DW explains PTA: NG15 likelihood, DW-only dlnL >= -3 from best fit",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 1.0,
+   "P_f_gt_1": 0.843817,
+   "P_reach": 0.054797,
+   "P_reach_det": 0.051444,
+   "P_reach_in_window": 0.054797,
+   "logM_5_50_95_reach": [
+    1.0804679676585276,
+    1.2146078072747226,
+    1.349249882401757
+   ]
+  }
+ },
+ "dw/pta_Lt0.5_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.151301,
+   "P_f_gt_1": 0.027006,
+   "P_reach": 0.074026,
+   "P_reach_det": 0.00597,
+   "P_reach_in_window": 0.074026,
+   "logM_5_50_95_reach": [
+    -1.0700838479746133,
+    2.5196096150619187,
+    3.176110411570858
+   ]
+  }
+ },
+ "dw/pta_Lt0.5_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = width; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.151301,
+   "P_f_gt_1": 0.027006,
+   "P_reach": 0.077624,
+   "P_reach_det": 0.00565,
+   "P_reach_in_window": 0.077624,
+   "logM_5_50_95_reach": [
+    -1.273858001384176,
+    2.3226490015838888,
+    2.955325726174954
+   ]
+  }
+ },
+ "dw/pta_Lt0.8_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = mono; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.745527,
+   "P_f_gt_1": 0.324905,
+   "P_reach": 0.260823,
+   "P_reach_det": 0.050181,
+   "P_reach_in_window": 0.260823,
+   "logM_5_50_95_reach": [
+    -0.3988544932961704,
+    1.472676784734398,
+    2.0782249996386777
+   ]
+  }
+ },
+ "dw/pta_Lt0.8_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = width; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.745527,
+   "P_f_gt_1": 0.324905,
+   "P_reach": 0.272876,
+   "P_reach_det": 0.062058,
+   "P_reach_in_window": 0.272876,
+   "logM_5_50_95_reach": [
+    -0.5976489796550316,
+    1.2917753108108712,
+    1.907798589186285
+   ]
+  }
+ },
+ "dw/pta_Lt1.2_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = mono; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 1.0,
+   "P_f_gt_1": 0.914835,
+   "P_reach": 0.026676,
+   "P_reach_det": 0.023944,
+   "P_reach_in_window": 0.026676,
+   "logM_5_50_95_reach": [
+    0.26099987376276,
+    0.6805007042237919,
+    1.0736059732959373
+   ]
+  }
+ },
+ "dw/pta_Lt1.2_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = width; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 1.0,
+   "P_f_gt_1": 0.914835,
+   "P_reach": 0.02664,
+   "P_reach_det": 0.023572,
+   "P_reach_in_window": 0.02664,
+   "logM_5_50_95_reach": [
+    0.06435455909842099,
+    0.5204887197797885,
+    0.9243628253477625
+   ]
+  }
+ },
+ "dw/ulL_Lt0.5_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.054028,
+   "P_f_gt_1": 0.035483,
+   "P_reach": 0.013913,
+   "P_reach_det": 0.000877,
+   "P_reach_in_window": 0.013913,
+   "logM_5_50_95_reach": [
+    -10.2667430982031,
+    -5.159626571987237,
+    -0.48092624470184625
+   ]
+  }
+ },
+ "dw/ulL_Lt0.5_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = width; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.054028,
+   "P_f_gt_1": 0.035483,
+   "P_reach": 0.013973,
+   "P_reach_det": 0.000827,
+   "P_reach_in_window": 0.013973,
+   "logM_5_50_95_reach": [
+    -10.524893782493027,
+    -5.439165737198122,
+    -0.7027033594821399
+   ]
+  }
+ },
+ "dw/ulL_Lt0.8_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = mono; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.112753,
+   "P_f_gt_1": 0.078685,
+   "P_reach": 0.025959,
+   "P_reach_det": 0.001779,
+   "P_reach_in_window": 0.025959,
+   "logM_5_50_95_reach": [
+    -10.334180411932845,
+    -4.977039320021259,
+    0.059940857799858756
+   ]
+  }
+ },
+ "dw/ulL_Lt0.8_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = width; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.112753,
+   "P_f_gt_1": 0.078685,
+   "P_reach": 0.026059,
+   "P_reach_det": 0.001697,
+   "P_reach_in_window": 0.026059,
+   "logM_5_50_95_reach": [
+    -10.609400771015078,
+    -5.252506358406222,
+    -0.1502299434525544
+   ]
+  }
+ },
+ "dw/ulL_Lt1.2_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = mono; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.201014,
+   "P_f_gt_1": 0.1441,
+   "P_reach": 0.043216,
+   "P_reach_det": 0.003446,
+   "P_reach_in_window": 0.043216,
+   "logM_5_50_95_reach": [
+    -10.40983054875627,
+    -4.7419761730972265,
+    0.7383607913194559
+   ]
+  }
+ },
+ "dw/ulL_Lt1.2_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = width; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.201014,
+   "P_f_gt_1": 0.1441,
+   "P_reach": 0.043474,
+   "P_reach_det": 0.003349,
+   "P_reach_in_window": 0.043474,
+   "logM_5_50_95_reach": [
+    -10.692654265591052,
+    -5.01451841638988,
+    0.5440486025181255
+   ]
+  }
+ },
+ "dw/ul_Lt0.5_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.047565,
+   "P_f_gt_1": 0.03125,
+   "P_reach": 0.012403,
+   "P_reach_det": 0.000497,
+   "P_reach_in_window": 0.012403,
+   "logM_5_50_95_reach": [
+    -10.361948107251738,
+    -5.708362624721804,
+    -1.437449266146362
+   ]
+  }
+ },
+ "dw/ul_Lt0.5_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = width; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.047565,
+   "P_f_gt_1": 0.03125,
+   "P_reach": 0.012446,
+   "P_reach_det": 0.000462,
+   "P_reach_in_window": 0.012446,
+   "logM_5_50_95_reach": [
+    -10.626847186483257,
+    -5.980606754493557,
+    -1.6563273467715236
+   ]
+  }
+ },
+ "dw/ul_Lt0.8_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = mono; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.101117,
+   "P_f_gt_1": 0.07013,
+   "P_reach": 0.023784,
+   "P_reach_det": 0.001231,
+   "P_reach_in_window": 0.023784,
+   "logM_5_50_95_reach": [
+    -10.449604502684418,
+    -5.452232684582672,
+    -0.818099603719289
+   ]
+  }
+ },
+ "dw/ul_Lt0.8_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = width; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.101117,
+   "P_f_gt_1": 0.07013,
+   "P_reach": 0.023897,
+   "P_reach_det": 0.001185,
+   "P_reach_in_window": 0.023897,
+   "logM_5_50_95_reach": [
+    -10.72038923993669,
+    -5.726876323749656,
+    -1.0430874589804822
+   ]
+  }
+ },
+ "dw/ul_Lt1.2_mono": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = mono; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.185035,
+   "P_f_gt_1": 0.130869,
+   "P_reach": 0.041504,
+   "P_reach_det": 0.002952,
+   "P_reach_in_window": 0.041504,
+   "logM_5_50_95_reach": [
+    -10.514055385331337,
+    -4.94312700049929,
+    0.38053710160481524
+   ]
+  }
+ },
+ "dw/ul_Lt1.2_width": {
+  "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 1.2, MF = width; LEGACY: PTA pointwise upper limit 1.51e-8 (f/fyr)^(2/3)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.185035,
+   "P_f_gt_1": 0.130869,
+   "P_reach": 0.041678,
+   "P_reach_det": 0.002825,
+   "P_reach_in_window": 0.041678,
+   "logM_5_50_95_reach": [
+    -10.793340050780714,
+    -5.2178828041487755,
+    0.15699449905292068
+   ]
+  }
+ },
+ "fermiball/base": {
+  "description": "Fermi-ball collapse (Kawana-Xie), v_b = 0.6, F_trap = 0.98; box log eta in [-16, -6]",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.269338,
+   "P_f_gt_1": 0.035033,
+   "P_reach": 0.174995,
+   "P_reach_det": 0.067768,
+   "P_reach_in_window": 0.13836,
+   "logM_5_50_95_reach": [
+    -18.451453437159,
+    -15.180380147552574,
+    -11.693739898917322
+   ]
+  }
+ },
+ "fopt/GV_dc0.4": {
+  "description": "supercooled FOPT, non-covariant (Gouttenoire-Volansky), delta_c = 0.4; critical-collapse MF",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.085509,
+   "P_f_gt_1": 0.045254,
+   "P_reach": 0.040962,
+   "P_reach_det": 0.010663,
+   "P_reach_in_window": 0.040784,
+   "logM_5_50_95_reach": [
+    -14.384608253615562,
+    -9.667404277439108,
+    -1.1922238626984165
+   ]
+  }
+ },
+ "fopt/GV_dc0.5": {
+  "description": "supercooled FOPT, non-covariant (Gouttenoire-Volansky), delta_c = 0.5; critical-collapse MF",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.058707,
+   "P_f_gt_1": 0.030861,
+   "P_reach": 0.02812,
+   "P_reach_det": 0.007302,
+   "P_reach_in_window": 0.028036,
+   "logM_5_50_95_reach": [
+    -14.30004862785613,
+    -9.599974694319787,
+    -1.2449281565430264
+   ]
+  }
+ },
+ "fopt/GV_dc0.667": {
+  "description": "supercooled FOPT, non-covariant (Gouttenoire-Volansky), delta_c = 0.667; critical-collapse MF",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.035969,
+   "P_f_gt_1": 0.018131,
+   "P_reach": 0.017716,
+   "P_reach_det": 0.004464,
+   "P_reach_in_window": 0.017677,
+   "logM_5_50_95_reach": [
+    -14.16087285831182,
+    -9.406928582962834,
+    -1.263406439388457
+   ]
+  }
+ },
+ "fopt/cov_dc0.4": {
+  "description": "supercooled FOPT, covariant (Franciolini-Gouttenoire-Jinno), delta_c^(C) = 0.4",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "fopt/cov_dc0.5": {
+  "description": "supercooled FOPT, covariant (Franciolini-Gouttenoire-Jinno), delta_c^(C) = 0.5",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "fopt/cov_dc0.667": {
+  "description": "supercooled FOPT, covariant (Franciolini-Gouttenoire-Jinno), delta_c^(C) = 0.667",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 1000000,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "inflating_curvaton/con": {
+  "description": "inflating curvaton: 16 optimisation points (maximal f), threshold variant 'con'; NOT prior samples (max f ~ 1e-3776, no prior mass reaches the plane)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 16,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "inflating_curvaton/opt": {
+  "description": "inflating curvaton: 16 optimisation points (maximal f), threshold variant 'opt'; NOT prior samples (max f ~ 1e-3776, no prior mass reaches the plane)",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 16,
+   "P_f_gt_1e12": 0.0,
+   "P_f_gt_1": 0.0,
+   "P_reach": 0.0,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0
+  }
+ },
+ "infwall/cen": {
+  "description": "walls nucleated during Starobinsky inflation (GVZ/DGV), A = 1, kappa = 2",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 100000,
+   "P_f_gt_1e12": 0.03814,
+   "P_f_gt_1": 0.03162,
+   "P_reach": 0.00154,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0,
+   "logM_5_50_95_reach": [
+    -18.588889766057086,
+    -18.588876424043473,
+    -18.588866439691515
+   ]
+  }
+ },
+ "infwall/con": {
+  "description": "walls nucleated during Starobinsky inflation (GVZ/DGV), A = 1e-2, kappa = 1",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 100000,
+   "P_f_gt_1e12": 0.04838,
+   "P_f_gt_1": 0.04064,
+   "P_reach": 0.00164,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0,
+   "logM_5_50_95_reach": [
+    -18.55870695243948,
+    -18.55870399331525,
+    -18.558700872057813
+   ]
+  }
+ },
+ "infwall/opt": {
+  "description": "walls nucleated during Starobinsky inflation (GVZ/DGV), A = 1e2, kappa = 2",
+  "date": "2026-11-14",
+  "stats": {
+   "n": 100000,
+   "P_f_gt_1e12": 0.02483,
+   "P_f_gt_1": 0.01937,
+   "P_reach": 0.00135,
+   "P_reach_det": 0.0,
+   "P_reach_in_window": 0.0,
+   "logM_5_50_95_reach": [
+    -18.588875107580353,
+    -18.588865588538923,
+    -18.588853350237898
+   ]
+  }
+ },
+ "starobinsky_reheat/baseline": {
+  "description": "PBHs from the scalaron-dominated reheating era (MPV 1907.04236): horizon masses 13 g - 1.5e13 g, all evaporated; nothing in the (M, f) plane. rho_Gamma^1/4 = 6.2e9 GeV vs MPV relic-overproduction edge ~4e9 GeV (要確認)",
+  "date": "2026-11-14",
+  "stats": null
+ },
+ "usr_bump/act_G": {
+  "description": "inflaton-generated PBHs: Starobinsky + Gaussian bump (USR), CMB = act, Gaussian (smooth transition) -- ALLOWED REGION EMPTY (base n_s outside the CMB band)",
+  "date": "2026-11-15",
+  "stats": null
+ },
+ "usr_bump/act_NG": {
+  "description": "inflaton-generated PBHs: Starobinsky + Gaussian bump (USR), CMB = act, USR exponential tail f_NL=5/2 (sharp transition) -- ALLOWED REGION EMPTY (base n_s outside the CMB band)",
+  "date": "2026-11-15",
+  "stats": null
+ },
+ "usr_bump/planck_G": {
+  "description": "inflaton-generated PBHs: Starobinsky + Gaussian bump (USR), CMB = planck, Gaussian (smooth transition)",
+  "date": "2026-11-15",
+  "stats": {
+   "n": 7440,
+   "P_f_gt_1e12": 6.051802038679505e-06,
+   "P_f_gt_1": 3.7285867877429874e-06,
+   "P_reach": 2.3721987255816476e-06,
+   "P_reach_det": 7.911305503016733e-07,
+   "P_reach_in_window": 2.3676847957779098e-06,
+   "weighted": true,
+   "logM_5_50_95_reach": [
+    -16.622876322807727,
+    -12.555987069651454,
+    -1.7401953897483047
+   ]
+  }
+ },
+ "usr_bump/planck_NG": {
+  "description": "inflaton-generated PBHs: Starobinsky + Gaussian bump (USR), CMB = planck, USR exponential tail f_NL=5/2 (sharp transition)",
+  "date": "2026-11-15",
+  "stats": {
+   "n": 11000,
+   "P_f_gt_1e12": 1.4540734755916904e-05,
+   "P_f_gt_1": 1.3764537456340352e-05,
+   "P_reach": 1.0910066831125874e-06,
+   "P_reach_det": 9.615076428860943e-07,
+   "P_reach_in_window": 1.0910066831125874e-06,
+   "weighted": true,
+   "logM_5_50_95_reach": [
+    -14.849999999999998,
+    -13.780724681633155,
+    -1.72603843590004
+   ]
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "model": "axion_curvaton",
+ "condition": "con_zc0.5",
+ "description": "axion-like (KKY) curvaton, hilltop treatment 'con', collapse threshold zeta_c = 0.5; N = 1000000 prior samples",
+ "assumptions": [
+  "anharmonic G(theta) with hilltop asymptotics",
+  "monochromatic MF"
+ ],
+ "code": [
+  "axion_G.py",
+  "axion_pipeline.py",
+  "axion_zc.py"
+ ],
+ "date": "2026-11-16",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 1.3e-05,
+  "P_f_gt_1": 2e-06,
+  "P_reach": 1.1e-05,
+  "P_reach_det": 2e-06,
+  "P_reach_in_window": 1.1e-05,
+  "weighted": false,
+  "logM_5_50_95_reach": [
+   -2.419718307071533,
+   -1.5585240585831355,
+   -0.5064103609149868
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "model": "dw",
+ "condition": "pta_Lt0.8_mono",
+ "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.8, MF = mono; LEGACY: DW explains PTA via Omega(1/yr) in [5.3e-9, 1.51e-8]",
+ "assumptions": [
+  "s_ball natural log (verified)",
+  "GW: GV App. B.1",
+  "monochromatic at t_dom/2G",
+  "PBHbounds only"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py",
+  "run_dw_ptaL.py",
+  "dw_pta_fit.py",
+  "pta_like.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.745527,
+  "P_f_gt_1": 0.324905,
+  "P_reach": 0.26082299999999997,
+  "P_reach_det": 0.050181,
+  "P_reach_in_window": 0.26082299999999997,
+  "weighted": false,
+  "logM_5_50_95_reach": [
+   -0.3988637027935468,
+   1.47267573556147,
+   2.078224405042225
+  ]
+ }
+}

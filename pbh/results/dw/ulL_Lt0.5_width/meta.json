@@ -1,0 +1,33 @@
+{
+ "model": "dw",
+ "condition": "ulL_Lt0.5_width",
+ "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = width; PTA as upper limit: NG15 likelihood, SMBHB(13/3)+DW not worse than SMBHB alone by 1.92",
+ "assumptions": [
+  "s_ball natural log (verified)",
+  "GW: GV App. B.1",
+  "width: critical collapse with percolation-derived Delta scale (ours)",
+  "evaporated-PBH limits applied (width only)"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py",
+  "run_dw_ptaL.py",
+  "dw_pta_fit.py",
+  "pta_like.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.054028,
+  "P_f_gt_1": 0.035483,
+  "P_reach": 0.013973,
+  "P_reach_det": 0.000827,
+  "P_reach_in_window": 0.013973,
+  "weighted": false,
+  "logM_5_50_95_reach": [
+   -10.52623119871599,
+   -5.439229956302097,
+   -0.7027295049759431
+  ]
+ }
+}

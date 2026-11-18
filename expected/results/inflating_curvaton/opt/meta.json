@@ -1,0 +1,22 @@
+{
+ "model": "inflating_curvaton",
+ "condition": "opt",
+ "description": "inflating curvaton: 16 optimisation points (maximal f), threshold variant 'opt'; NOT prior samples (max f ~ 1e-3776, no prior mass reaches the plane)",
+ "assumptions": [
+  "N2 <= 6.8 from n_s",
+  "g2 >~ 0.23"
+ ],
+ "code": [
+  "infcurv_pipeline.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 16,
+  "P_f_gt_1e12": 0.0,
+  "P_f_gt_1": 0.0,
+  "P_reach": 0.0,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 0.0
+ }
+}

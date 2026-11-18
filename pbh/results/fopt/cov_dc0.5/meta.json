@@ -1,0 +1,23 @@
+{
+ "model": "fopt",
+ "condition": "cov_dc0.5",
+ "description": "supercooled FOPT, covariant (Franciolini-Gouttenoire-Jinno), delta_c^(C) = 0.5",
+ "assumptions": [
+  "FGJ P(delta) fit, Table I",
+  "same prior as GV"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.0,
+  "P_f_gt_1": 0.0,
+  "P_reach": 0.0,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 0.0,
+  "weighted": false
+ }
+}

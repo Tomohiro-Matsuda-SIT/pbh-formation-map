@@ -1,0 +1,24 @@
+{
+ "model": "cstring",
+ "condition": "CC",
+ "description": "cosmic-string loop collapse (James-Turner et al. MF), collapse fraction from Caldwell-Casper fit, extrapolated",
+ "assumptions": [
+  "G mu <= min(T_max-bound, LVK 4e-15)",
+  "lM = M_* = 5e14 g (abundance-weighted end)",
+  "evaporated-PBH limits (our evaluation; JT's 2e-12 not used)"
+ ],
+ "code": [
+  "cosmicstring_pipeline.py",
+  "evap.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 20000,
+  "P_f_gt_1e12": 0.0,
+  "P_f_gt_1": 0.0,
+  "P_reach": 0.0,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 0.0
+ }
+}

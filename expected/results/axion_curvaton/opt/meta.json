@@ -1,0 +1,28 @@
+{
+ "model": "axion_curvaton",
+ "condition": "opt",
+ "description": "axion-like (KKY) curvaton, hilltop treatment 'opt' (eps_min region counted)",
+ "assumptions": [
+  "anharmonic G(theta) with hilltop asymptotics",
+  "monochromatic MF"
+ ],
+ "code": [
+  "axion_G.py",
+  "axion_pipeline.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 300000,
+  "P_f_gt_1e12": 3.6666666666666666e-05,
+  "P_f_gt_1": 0.0,
+  "P_reach": 3.6666666666666666e-05,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 3.6666666666666666e-05,
+  "logM_5_50_95_reach": [
+   -9.28154284859994,
+   -8.720957500169208,
+   -8.437096115703422
+  ]
+ }
+}

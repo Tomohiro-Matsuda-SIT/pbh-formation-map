@@ -1,0 +1,23 @@
+{
+ "model": "curvaton_std",
+ "condition": "zetac1.0",
+ "description": "standard quadratic curvaton, threshold zeta_c = 1.0; Gaussian prior on CMB/classicality/BBN-allowed box",
+ "assumptions": [
+  "Starobinsky background fixed",
+  "Sasaki-Valiviita-Wands nonlinear zeta",
+  "monochromatic MF"
+ ],
+ "code": [
+  "curvaton_pipeline.py"
+ ],
+ "date": "2026-11-14",
+ "eps": 1e-05,
+ "stats": {
+  "n": 200000,
+  "P_f_gt_1e12": 0.0,
+  "P_f_gt_1": 0.0,
+  "P_reach": 0.0,
+  "P_reach_det": 0.0,
+  "P_reach_in_window": 0.0
+ }
+}

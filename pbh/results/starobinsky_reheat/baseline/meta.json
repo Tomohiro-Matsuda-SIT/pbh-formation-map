@@ -1,0 +1,13 @@
+{
+ "model": "starobinsky_reheat",
+ "condition": "baseline",
+ "description": "PBHs from the scalaron-dominated reheating era (MPV 1907.04236): horizon masses 13 g - 1.5e13 g, all evaporated; nothing in the (M, f) plane. rho_Gamma^1/4 = 6.2e9 GeV vs MPV relic-overproduction edge ~4e9 GeV (要確認)",
+ "assumptions": [
+  "Starobinsky background"
+ ],
+ "code": [
+  "cosmicstring_pipeline.py (T_max)"
+ ],
+ "date": "2026-11-15",
+ "stats": null
+}

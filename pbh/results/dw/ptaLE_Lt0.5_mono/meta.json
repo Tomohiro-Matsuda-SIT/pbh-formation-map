@@ -1,0 +1,33 @@
+{
+ "model": "dw",
+ "condition": "ptaLE_Lt0.5_mono",
+ "description": "biased domain walls (Gouttenoire-Vitagliano), L/t = 0.5, MF = mono; DW explains PTA: EPTA DR2new likelihood (cross-check)",
+ "assumptions": [
+  "s_ball natural log (verified)",
+  "GW: GV App. B.1",
+  "monochromatic at t_dom/2G",
+  "PBHbounds only"
+ ],
+ "code": [
+  "fopt_dw_pipeline.py",
+  "run_dw_ptaL.py",
+  "dw_pta_fit.py",
+  "pta_like.py"
+ ],
+ "date": "2026-11-15",
+ "eps": 1e-05,
+ "stats": {
+  "n": 1000000,
+  "P_f_gt_1e12": 0.067093,
+  "P_f_gt_1": 0.024883,
+  "P_reach": 0.033657,
+  "P_reach_det": 0.008594999999999998,
+  "P_reach_in_window": 0.033657,
+  "weighted": false,
+  "logM_5_50_95_reach": [
+   -0.03829701648278875,
+   0.12748854003970425,
+   0.30052501922941366
+  ]
+ }
+}

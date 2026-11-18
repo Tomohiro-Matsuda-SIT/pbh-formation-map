@@ -1,0 +1,10 @@
+{
+  "title": "Code and analysis notes for \"Where primordial black holes can come from: how likely formation mechanisms are to produce a given mass and abundance\"",
+  "upload_type": "software",
+  "description": "Code that computes, for ten formation mechanisms of primordial black holes, the probability that each square of the (mass, abundance) plane is populated, with parameter distributions fixed by non-PBH observations (CMB, LIGO-Virgo-KAGRA and NANOGrav gravitational-wave data, BBN). Includes analysis notes (formulas, parameter ranges, statistical procedures, construction of every figure, analytic checks, reproduction steps) and AI_GUIDE.md, a guide written to be read by AI assistants so that the analysis can be followed, extended or repeated for other formation models. The stored samples are deposited in a separate Zenodo record.",
+  "creators": [
+    {"name": "Matsuda, Tomohiro", "affiliation": "Saitama Institute of Technology"}
+  ],
+  "license": "MIT",
+  "keywords": ["primordial black holes", "formation mechanisms", "gravitational waves", "pulsar timing arrays", "dark matter"]
+}
